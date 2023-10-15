@@ -14,11 +14,11 @@ This repository contains a simple and elegant Todo List web app built using Tail
 
 ## Live Demo
 
-You can check out the live demo of the Todo List web app [here](#githubPages)).
+You can check out the live demo of the Todo List web app [here](https://aashoosharmatech.github.io/TODO-List-nodejs-app/)).
 
 ## Screenshots
 
-![image](https://github.com/abdellatif-laghjaj/todo-list/assets/79521157/2bc510e2-5f2f-456b-acc2-31b8c8232d93)
+![image](./files/Screenshot-todo-app.png)
 
 
 ## Technologies Used
