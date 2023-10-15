@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-app
+  labels:
+    app: ToDo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mytodo
+  template:
+    metadata:
+      labels:
+        app: mytodo
+    spec:
+      containers:
+      - name: todo
+        image: 65443/my-todo-list-app:v1
+        ports:
+        - containerPort: 3000
